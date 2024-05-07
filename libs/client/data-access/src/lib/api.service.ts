@@ -1,10 +1,12 @@
 import { inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
 import { ICreateTodo, ITodo, IUpdateTodo, IUpsertTodo } from '@fst/shared/domain';
+
 @Injectable({
   providedIn: 'root',
 })
+
 export class ApiService {
   private readonly http = inject(HttpClient);
 
