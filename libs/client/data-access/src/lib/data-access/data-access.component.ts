@@ -8,4 +8,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './data-access.component.html',
   styleUrl: './data-access.component.scss',
 })
-export class DataAccessComponent { }
+export class DataAccessComponent {
+  constructor() { }
+}
